@@ -1,14 +1,14 @@
 [
   {
     "id": "e4a1f810-7b32-4b68-9c12-881b2a950001",
-    "title": "The Founding of the Awami Muslim League at Rose Garden",
+    "title": "Beyond the Headlines: Deconstructing Modern Islamophobia and Its Human Cost",
     "slug": "founding-of-awami-muslim-league-rose-garden",
-    "excerpt": "How the party emerged in 1949 as an alternative political force in East Bengal.",
-    "content": "On June 23, 1949, progressive Bengali leaders convened at the historic Rose Garden in Dhaka to establish the East Pakistan Awami Muslim League.\n\nLed by figures like Maulana Abdul Hamid Khan Bhashani, Shamsul Huq, and a young Sheikh Mujibur Rahman, the party was created to counter the centralization and policies of the ruling Muslim League, marking a pivotal turn in Bengali political consciousness.",
-    "imageUrl": "/uploads/image.jpg",
+    "excerpt": "Islamophobia is far more than casual prejudice; it is a structured system of fear, hostility, and discrimination directed toward Muslims ",
+    "content": "Islamophobia is far more than casual prejudice; it is a structured system of fear, hostility, and discrimination directed toward Muslims and those perceived to be Muslim. In contemporary discourse, sensationalized media narratives frequently collapse a global faith of nearly two billion diverse individuals into monoliths defined solely through geopolitical conflict.</br> </br>This reductionist view translates directly into everyday harms: employment discrimination, workplace microaggressions, physical assaults, and discriminatory legislation. Treating any religious community as an ideological adversary erodes public trust and damages social cohesion. Combatting this requires active media literacy, intentional community engagement, and policies that address hate speech and systemic bias with measurable accountability. Genuine inclusion begins when we dismantle stereotypes before they turn into policy.",
+    "imageUrl": "/uploads/community-1.png",
     "authorId": "ceacf7da-ab57-4336-a66a-5f31f9c2cfcb",
-    "createdAt": "2026-08-22T09:15:00.000Z",
-    "updatedAt": "2026-08-22T09:15:00.000Z"
+    "createdAt": "2026-08-29T09:15:00.000Z",
+    "updatedAt": "2026-08-29T09:15:00.000Z"
   },
   {
     "id": "e4a1f810-7b32-4b68-9c12-881b2a950002",
@@ -104,7 +104,7 @@
     "slug": "infrastructure-expansion-padma-bridge-project",
     "excerpt": "The self-funded mega-infrastructure project connecting the southwest region.",
     "content": "Inaugurated in June 2022, the 6.15-kilometer multipurpose Padma Bridge represented a major infrastructure milestone during the Awami League's governance.\n\nFinanced fully from national reserves following disputes with external lenders, the bridge directly connected 21 southwestern districts to Dhaka, significantly reducing transit times and boosting regional trade.",
-    "imageUrl": "uploads/image.jpg",
+    "imageUrl": "/uploads/image.jpg",
     "authorId": "ceacf7da-ab57-4336-a66a-5f31f9c2cfcb",
     "createdAt": "2026-08-22T10:00:00.000Z",
     "updatedAt": "2026-08-22T10:00:00.000Z"

@@ -4,7 +4,7 @@
   <p class="eyebrow">Post</p>
   <h1><%= post.title %></h1>
   <p class="post-meta">
-    By <span class="byline"><%= author ? author.username : 'Unknown' %></span> ·
+    By <span class="byline">SALIMA</span> ·
     <%= new Date(post.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %>
     <% if (post.updatedAt !== post.createdAt) { %> · updated <%= new Date(post.updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %><% } %>
   </p>
