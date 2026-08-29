@@ -1,0 +1,18 @@
+[
+  {
+    "id": "324842e4-9dea-4152-b37d-71a6650d8946",
+    "username": "admin",
+    "email": "admin@example.com",
+    "passwordHash": "$2a$10$OM7indq4Fjx/rumFYUmG1Oz8GPFW1SwPsbjZNGZY9w1185oAwiZ5S",
+    "role": "admin",
+    "createdAt": "2026-08-22T09:17:56.741Z"
+  },
+  {
+    "id": "b37ec62f-2643-4870-acb4-78b5ed15cd3b",
+    "username": "omarfahim",
+    "email": "omar@gmail.com",
+    "passwordHash": "$2a$10$IiJCsKUIirCFFyDl2H.SfeYuyDVWlPdMKIapr9oIf0B/3Ve3tIFNC",
+    "role": "user",
+    "createdAt": "2026-08-29T11:01:31.175Z"
+  }
+]

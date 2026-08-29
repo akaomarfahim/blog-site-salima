@@ -1,0 +1,18 @@
+[
+  {
+    "id": "044487c2-7999-42b4-ab45-4b8f909e498d",
+    "postId": "e4a1f810-7b32-4b68-9c12-881b2a950010",
+    "userId": "b37ec62f-2643-4870-acb4-78b5ed15cd3b",
+    "parentId": null,
+    "content": "kire badra edi ki des",
+    "createdAt": "2026-08-29T11:01:45.215Z"
+  },
+  {
+    "id": "c1cfe393-db11-4583-8629-a52cdb6f4b12",
+    "postId": "e4a1f810-7b32-4b68-9c12-881b2a950010",
+    "userId": "b37ec62f-2643-4870-acb4-78b5ed15cd3b",
+    "parentId": "044487c2-7999-42b4-ab45-4b8f909e498d",
+    "content": "okay good",
+    "createdAt": "2026-08-29T11:02:02.249Z"
+  }
+]

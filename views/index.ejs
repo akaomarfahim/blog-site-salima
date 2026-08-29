@@ -1,0 +1,56 @@
+<%- include('partials/header') %>
+
+<section class="masthead">
+  <p class="masthead-kicker">Welcome</p>
+  <h1 class="masthead-title">Stories, thoughts &amp; updates</h1>
+  <p class="masthead-sub">Fresh posts from me, straight to you — and I read every comment.</p>
+</section>
+
+<% if (posts.length === 0) { %>
+  <p class="empty-state">No posts yet. Check back soon!</p>
+<% } else { %>
+  <% const featured = posts[0]; const rest = posts.slice(1); %>
+
+  <article class="featured-post">
+    <a href="/post/<%= featured.slug %>" class="featured-image-link">
+      <% if (featured.imageUrl) { %>
+        <img src="<%= featured.imageUrl %>" alt="<%= featured.title %>" class="featured-image" />
+      <% } else { %>
+        <div class="featured-image placeholder-image"><span><%= featured.title.charAt(0) %></span></div>
+      <% } %>
+    </a>
+    <div class="featured-body">
+      <p class="eyebrow">Latest</p>
+      <h2><a href="/post/<%= featured.slug %>"><%= featured.title %></a></h2>
+      <p class="post-meta"><%= new Date(featured.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
+      <p class="post-excerpt"><%= featured.excerpt || featured.content.slice(0, 220) + '...' %></p>
+      <a href="/post/<%= featured.slug %>" class="read-more">Read the full story &rarr;</a>
+    </div>
+  </article>
+
+  <% if (rest.length > 0) { %>
+    <div class="section-divider"><span>More posts</span></div>
+
+    <section class="post-grid">
+      <% rest.forEach(function(post) { %>
+        <article class="post-card">
+          <a href="/post/<%= post.slug %>" class="post-card-image-link">
+            <% if (post.imageUrl) { %>
+              <img src="<%= post.imageUrl %>" alt="<%= post.title %>" class="post-card-image" />
+            <% } else { %>
+              <div class="post-card-image placeholder-image"><span><%= post.title.charAt(0) %></span></div>
+            <% } %>
+          </a>
+          <div class="post-card-body">
+            <h3><a href="/post/<%= post.slug %>"><%= post.title %></a></h3>
+            <p class="post-meta"><%= new Date(post.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %></p>
+            <p class="post-excerpt"><%= post.excerpt || post.content.slice(0, 130) + '...' %></p>
+            <a href="/post/<%= post.slug %>" class="read-more">Read more &rarr;</a>
+          </div>
+        </article>
+      <% }) %>
+    </section>
+  <% } %>
+<% } %>
+
+<%- include('partials/footer') %>
