@@ -22,5 +22,13 @@
     "passwordHash": "$2a$10$fYFwRkdxa9/ZTN1DoMHzQed9jyylTNJW3UthhIL9PYRmHODsycFGy",
     "role": "user",
     "createdAt": "2026-08-29T13:23:00.035Z"
+  },
+  {
+    "id": "8d170521-dd06-4707-96a5-ef4f1cd4aed0",
+    "username": "fatema",
+    "email": "fatema@gmail.com",
+    "passwordHash": "$2a$10$wJD86l.N2XLpth2wPlZ5ROVrYfsJFg1w2.RrQmezKz2.5.HID6xXW",
+    "role": "user",
+    "createdAt": "2026-08-30T00:21:11.388Z"
   }
 ]
