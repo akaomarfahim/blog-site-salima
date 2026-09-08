@@ -6,29 +6,5 @@
     "passwordHash": "$2a$10$OM7indq4Fjx/rumFYUmG1Oz8GPFW1SwPsbjZNGZY9w1185oAwiZ5S",
     "role": "admin",
     "createdAt": "2026-08-22T09:17:56.741Z"
-  },
-  {
-    "id": "b37ec62f-2643-4870-acb4-78b5ed15cd3b",
-    "username": "omarfahim",
-    "email": "omar@gmail.com",
-    "passwordHash": "$2a$10$IiJCsKUIirCFFyDl2H.SfeYuyDVWlPdMKIapr9oIf0B/3Ve3tIFNC",
-    "role": "user",
-    "createdAt": "2026-08-29T11:01:31.175Z"
-  },
-  {
-    "id": "ca954e12-06d2-45cf-a365-c5974844a672",
-    "username": "omar",
-    "email": "omar123@gmail.com",
-    "passwordHash": "$2a$10$fYFwRkdxa9/ZTN1DoMHzQed9jyylTNJW3UthhIL9PYRmHODsycFGy",
-    "role": "user",
-    "createdAt": "2026-08-29T13:23:00.035Z"
-  },
-  {
-    "id": "8d170521-dd06-4707-96a5-ef4f1cd4aed0",
-    "username": "fatema",
-    "email": "fatema@gmail.com",
-    "passwordHash": "$2a$10$wJD86l.N2XLpth2wPlZ5ROVrYfsJFg1w2.RrQmezKz2.5.HID6xXW",
-    "role": "user",
-    "createdAt": "2026-08-30T00:21:11.388Z"
   }
 ]
